@@ -3,9 +3,8 @@
 alt + i                 : komorebic toggle-shortcuts
 
 # < --- /// CUSTOM HOTKEYS /// --- >
-alt + o 				: powershell -NoProfile ~\.config\scripts\wm\whkd-restart.ps1
+alt + o 		: powershell -NoProfile ~\.config\scripts\wm\whkd-restart.ps1
 alt + shift + o         : powershell -NoProfile ~\.config\scripts\wm\komorebi-reload.ps1 #komorebic reload-configuration
-
 
 # App shortcuts - these require shell to be pwsh / powershell
 # The apps will be focused if open, or launched if not open
@@ -16,23 +15,23 @@ alt + shift + o         : powershell -NoProfile ~\.config\scripts\wm\komorebi-re
 # wezterm, vscode, yazi, nvim, fzf, sharex, zen-browser, btop
 alt + vk_return         : wezterm-gui # ~\.config\scripts\launchers\terminal.ps1
 alt + shift + vk_return	: powershell -NoProfile ~\.config\scripts\launchers\scratchpad.ps1
-alt + e					: powershell -NoProfile ~\.config\scripts\launchers\filebrowser.ps1 #wezterm-gui -e yazi ~\Desktop
-alt + n         		: powershell -NoProfile ~\.config\scripts\launchers\notes.ps1
-alt + c 				: code
-alt + g 				: powershell -NoProfile ~\.config\scripts\launchers\gitui.ps1
+alt + e			: powershell -NoProfile ~\.config\scripts\launchers\filebrowser.ps1 #wezterm-gui -e yazi ~\Desktop
+alt + n         	: powershell -NoProfile ~\.config\scripts\launchers\notes.ps1
+alt + c 		: code
+alt + g 		: powershell -NoProfile ~\.config\scripts\launchers\gitui.ps1
 
-alt + shift + m 		: wezterm-gui -e btop
+alt + shift + m 	: wezterm-gui -e btop
 # FZF FLOATING WINDOWS
-alt + space				: powershell -NoProfile ~\.config\scripts\launchers\applauncher.ps1
-alt + shift + n 		: powershell -NoProfile ~\.config\scripts\launchers\run-with-nvim.ps1
-alt + shift + c			: powershell -NoProfile ~\.config\scripts\launchers\run-with-code.ps1 
-alt + ctrl + k 			: powershell -NoProfile ~\.config\scripts\launchers\killer.ps1
+alt + space		: powershell -NoProfile ~\.config\scripts\launchers\applauncher.ps1
+alt + shift + n 	: powershell -NoProfile ~\.config\scripts\launchers\run-with-nvim.ps1
+alt + shift + c		: powershell -NoProfile ~\.config\scripts\launchers\run-with-code.ps1 
+alt + ctrl + k 		: powershell -NoProfile ~\.config\scripts\launchers\killer.ps1
 # sharex
-alt + s 				: sharex -s -RectangleRegion -autoclose
-alt + shift + s			: sharex -s -ScreenRecorder -autoclose
+alt + s 		: sharex -s -RectangleRegion -autoclose
+alt + shift + s		: sharex -s -ScreenRecorder -autoclose
 # zen-browser
-alt + p 				: zen
-alt + shift + p			: zen --private
+alt + p 		: zen
+alt + shift + p		: zen --private
 # < --- /// END OF CUSTOM HOTKEYS /// --- >
 
 alt + q                 : komorebic close

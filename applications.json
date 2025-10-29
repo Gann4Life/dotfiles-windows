@@ -1,5 +1,21 @@
 {
   "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/master/schema.asc.json",
+  "AutoDraw": {
+	  "tray_and_multi_window": [
+		  {
+			  "kind": "Exe",
+			  "id": "autodraw.exe",
+			  "matching_strategy": "Equals"
+		  }
+	  ],
+	"floating": [
+		{
+			"kind": "Exe",
+			"id": "autodraw.exe",
+			"matching_strategy": "Equals"
+		}
+	]
+  },
   "Krita": {
     "tray_and_multi_window": [
       {

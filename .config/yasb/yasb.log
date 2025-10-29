@@ -1763,3 +1763,974 @@ OSError: [WinError 1062] The service has not been started.
 2025-10-24 22:53:16,605 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
 2025-10-24 22:53:50,384 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
 2025-10-24 22:53:50,384 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-24 23:12:47,827 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-10-24 23:12:54,142 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 983574
+2025-10-24 23:12:55,165 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-24 23:12:55,165 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-24 23:42:38,523 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-24 23:42:38,523 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-24 23:42:38,523 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-24 23:42:39,012 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-24 23:42:41,554 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-10-24 23:42:41,557 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-10-24 23:42:41,557 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-10-24 23:42:41,557 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-10-24 23:42:41,558 [INFO] [Dummy-3] [root/event_listener.py:51]: Created named pipe yasb-4704295b-b14c-11f0-b01e-7c10c9d32866
+2025-10-24 23:42:41,558 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\mrgann\.config\yasb
+2025-10-24 23:42:42,075 [INFO] [Dummy-3] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-4704295b-b14c-11f0-b01e-7c10c9d32866
+2025-10-24 23:42:42,083 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-24 23:42:42,084 [DEBUG] [Dummy-9] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-24 23:42:42,085 [DEBUG] [MainThread] [systray_widget/systray.py:538]: Loading state from C:\Users\mrgann\AppData\Local\YASB\systray_state_LGELECTRONICS23EA53.json
+2025-10-24 23:42:42,088 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-10-24 23:42:42,088 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-10-24 23:42:42,094 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 852510
+2025-10-24 23:42:42,094 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 852510
+2025-10-24 23:42:42,105 [DEBUG] [MainThread] [systray_widget/systray.py:285]: Systray thread started
+2025-10-24 23:42:42,305 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 852510
+2025-10-24 23:42:42,306 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-10-24 23:42:42,309 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49368
+2025-10-24 23:42:43,322 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-24 23:42:43,322 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-24 23:43:59,584 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-24 23:43:59,584 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 00:05:20,047 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 00:05:20,047 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 01:00:46,856 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 01:00:46,856 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 01:18:25,032 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 01:18:25,032 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 01:18:27,113 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 01:18:27,113 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 01:19:20,906 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 01:19:20,906 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 01:19:50,243 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 01:19:50,243 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 01:19:54,123 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 01:19:54,123 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 01:20:00,847 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 01:20:00,847 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 01:20:03,957 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 01:20:03,957 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 02:19:12,124 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 02:19:12,125 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 03:16:39,232 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 03:16:39,253 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 03:20:12,449 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 03:20:12,449 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 03:30:57,647 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 03:30:57,647 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 03:31:39,342 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-10-25 03:31:39,347 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping KomorebiEventListener...
+2025-10-25 03:31:39,348 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-10-25 03:31:39,350 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-10-25 03:31:39,362 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 03:31:39,363 [DEBUG] [MainThread] [systray_widget/systray.py:516]: Saving state to disk
+2025-10-25 03:31:39,393 [INFO] [Dummy-3] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-10-25 03:31:39,396 [DEBUG] [MainThread] [systray_widget/systray.py:520]: Saving state to C:\Users\mrgann\AppData\Local\YASB\systray_state_LGELECTRONICS23EA53.json
+2025-10-25 12:19:00,692 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-25 12:19:00,693 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-25 12:19:00,693 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-25 12:19:02,050 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-25 12:19:09,563 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-10-25 12:19:09,564 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-10-25 12:19:09,565 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-10-25 12:19:09,565 [INFO] [Dummy-3] [root/event_listener.py:51]: Created named pipe yasb-f460a505-b1b5-11f0-8c95-7c10c9d32866
+2025-10-25 12:19:09,566 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-10-25 12:19:09,566 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\mrgann\.config\yasb
+2025-10-25 12:19:10,566 [INFO] [Dummy-3] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-f460a505-b1b5-11f0-8c95-7c10c9d32866
+2025-10-25 12:19:10,875 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-25 12:19:10,876 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-25 12:19:10,876 [DEBUG] [MainThread] [systray_widget/systray.py:538]: Loading state from C:\Users\mrgann\AppData\Local\YASB\systray_state_LGELECTRONICS23EA53.json
+2025-10-25 12:19:10,887 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-10-25 12:19:10,887 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-10-25 12:19:10,889 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 132016
+2025-10-25 12:19:10,889 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 132016
+2025-10-25 12:19:11,124 [DEBUG] [MainThread] [systray_widget/systray.py:285]: Systray thread started
+2025-10-25 12:19:11,326 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 132016
+2025-10-25 12:19:11,326 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-10-25 12:19:11,327 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49316
+2025-10-25 12:19:12,413 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 12:19:12,413 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 12:20:11,088 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 1311733
+2025-10-25 12:20:12,207 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 262601
+2025-10-25 12:20:12,207 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 2360309
+2025-10-25 12:28:32,777 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 3080859
+2025-10-25 12:28:32,777 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 3539417
+2025-10-25 12:29:00,379 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 12:29:00,379 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 12:29:27,805 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 12:29:27,805 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 12:29:32,496 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 12:29:32,497 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 12:30:02,015 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 12:30:02,015 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 12:32:09,813 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 12:32:09,813 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 12:37:03,220 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 12:37:03,220 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 12:39:21,203 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 12:39:21,203 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 12:40:24,713 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 12:40:24,713 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 12:40:27,023 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 12:40:27,023 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 12:56:55,877 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 12:56:55,877 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 13:11:20,039 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 13:11:20,040 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 13:11:24,890 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 13:11:24,890 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 13:20:53,812 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 13:20:53,812 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 13:25:10,391 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 13:25:10,391 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 13:39:23,998 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 13:39:23,998 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 13:43:01,292 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 13:43:01,292 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 13:52:58,000 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 13:52:58,000 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 14:11:52,766 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 14:11:52,766 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 14:41:33,030 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 14:41:33,030 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 14:44:30,519 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 14:44:30,519 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 14:50:11,289 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 14:50:11,289 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 15:01:16,145 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 15:01:16,145 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 15:01:56,895 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 15:01:56,895 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 15:05:13,710 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 15:05:13,710 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 15:11:37,364 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 15:11:37,364 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 15:11:40,324 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 15:11:40,324 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 15:12:11,339 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 15:12:11,340 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 15:13:25,571 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 15:13:25,571 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 15:13:26,933 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 15:13:26,933 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 15:14:02,406 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 15:14:02,406 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 15:14:18,022 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 15:14:18,022 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 15:14:19,420 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 15:14:19,420 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 15:51:57,222 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 15:51:57,222 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 15:57:47,127 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 15:57:47,127 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 17:21:45,970 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 17:21:45,970 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 17:26:07,185 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 17:26:07,185 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 17:30:39,137 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 17:30:39,137 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 19:51:04,577 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 19:51:04,578 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 20:10:23,975 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 20:10:23,976 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 20:15:51,107 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 20:15:51,107 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 20:16:23,263 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 20:16:23,263 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 20:16:58,591 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 20:16:58,591 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 20:17:38,155 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 20:17:38,155 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 20:18:32,746 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 20:18:32,746 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 20:19:06,913 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 20:19:06,913 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 20:19:18,743 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 20:19:18,743 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 20:19:30,919 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 20:19:30,919 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 20:19:54,190 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 20:19:54,190 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 20:20:38,022 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 20:20:38,022 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 20:21:11,669 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 20:21:11,669 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 20:21:45,010 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 20:21:45,010 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 20:47:41,880 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 20:47:41,880 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 20:50:56,674 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 20:50:56,674 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 20:52:57,730 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 20:52:57,730 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 21:15:47,011 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 21:15:47,011 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 23:01:27,535 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 23:01:27,535 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 23:13:32,581 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 23:13:32,582 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 23:22:17,598 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 23:22:17,598 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 23:24:27,721 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 23:24:27,721 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-25 23:26:18,426 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-25 23:26:18,426 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 00:16:23,679 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 00:16:23,679 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 00:19:09,280 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 00:19:09,280 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 01:12:49,330 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 01:12:49,330 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 01:16:16,239 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 01:16:16,239 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 01:47:07,455 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 01:47:07,455 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 02:19:50,954 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 02:19:50,954 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 02:20:05,775 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 02:20:05,775 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 02:20:22,171 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 02:20:22,171 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 02:20:53,323 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 02:20:53,323 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 02:21:59,283 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 02:21:59,283 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 02:22:17,140 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 02:22:17,140 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 02:23:09,482 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 02:23:09,482 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 02:56:29,568 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping KomorebiEventListener...
+2025-10-26 02:56:29,568 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-10-26 02:56:29,568 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-10-26 02:56:29,570 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-10-26 02:56:29,572 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 02:56:29,572 [DEBUG] [MainThread] [systray_widget/systray.py:516]: Saving state to disk
+2025-10-26 02:56:29,573 [DEBUG] [MainThread] [systray_widget/systray.py:520]: Saving state to C:\Users\mrgann\AppData\Local\YASB\systray_state_LGELECTRONICS23EA53.json
+2025-10-26 02:56:29,575 [INFO] [Dummy-3] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-10-26 12:09:18,940 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-26 12:09:18,941 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-26 12:09:18,941 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-26 12:09:21,095 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-26 12:09:26,299 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-10-26 12:09:26,300 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-10-26 12:09:26,300 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-10-26 12:09:26,301 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-10-26 12:09:26,301 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\mrgann\.config\yasb
+2025-10-26 12:09:26,302 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-c32360bb-b27d-11f0-b114-7c10c9d32866
+2025-10-26 12:09:29,609 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-c32360bb-b27d-11f0-b114-7c10c9d32866
+2025-10-26 12:09:29,698 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-26 12:09:29,699 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-26 12:09:29,700 [DEBUG] [MainThread] [systray_widget/systray.py:538]: Loading state from C:\Users\mrgann\AppData\Local\YASB\systray_state_LGELECTRONICS23EA53.json
+2025-10-26 12:09:29,709 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-10-26 12:09:29,709 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-10-26 12:09:29,711 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 131996
+2025-10-26 12:09:29,712 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 131996
+2025-10-26 12:09:29,943 [DEBUG] [MainThread] [systray_widget/systray.py:285]: Systray thread started
+2025-10-26 12:09:30,145 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 131996
+2025-10-26 12:09:30,146 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-10-26 12:09:30,149 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49318
+2025-10-26 12:09:31,306 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 12:09:31,556 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 12:10:50,067 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 1114485
+2025-10-26 12:10:51,204 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 262813
+2025-10-26 12:10:51,204 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 3211631
+2025-10-26 12:19:12,456 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 5899125
+2025-10-26 12:19:12,456 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 524967
+2025-10-26 12:19:14,461 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 6751093
+2025-10-26 12:19:14,461 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 2556189
+2025-10-26 12:19:22,598 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 852399
+2025-10-26 12:19:22,598 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 2425139
+2025-10-26 12:19:51,418 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 1704367
+2025-10-26 12:19:51,418 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 3015381
+2025-10-26 16:18:16,279 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 16:18:16,280 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 16:24:49,823 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 16:24:49,883 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 16:24:50,849 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 16:24:50,849 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 16:31:01,385 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 16:31:01,448 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 16:31:03,946 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 16:31:04,017 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 16:31:18,117 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 16:31:18,183 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 16:31:45,246 [INFO] [MainThread] [root/bar.py:147]: Screen geometry changed. Updating position for bar (primary-bar_23EA53_7494a9c6)
+2025-10-26 16:31:49,746 [INFO] [MainThread] [root/bar.py:147]: Screen geometry changed. Updating position for bar (primary-bar_23EA53_7494a9c6)
+2025-10-26 16:32:02,849 [INFO] [MainThread] [root/bar.py:147]: Screen geometry changed. Updating position for bar (primary-bar_23EA53_7494a9c6)
+2025-10-26 16:33:14,997 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 16:33:14,997 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 16:45:06,431 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 16:45:06,493 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 17:19:28,004 [INFO] [MainThread] [root/bar.py:147]: Screen geometry changed. Updating position for bar (primary-bar_23EA53_7494a9c6)
+2025-10-26 17:40:32,953 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-10-26 17:40:37,367 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 17:40:37,368 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 17:40:38,356 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 131996
+2025-10-26 17:40:38,414 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 17:40:39,695 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 17:40:39,695 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 17:41:46,696 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 17:41:46,696 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 17:51:57,961 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 17:51:57,961 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 17:52:03,380 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 17:52:03,380 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 18:08:22,093 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-26 18:08:22,093 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-26 18:08:22,094 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-26 18:08:22,094 [ERROR] [MainThread] [root/main.py:76]: Another instance of the YASB is already running.
+2025-10-26 18:08:26,507 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-26 18:08:26,508 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-26 18:08:26,508 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-26 18:08:27,372 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-26 18:08:29,690 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-10-26 18:08:29,693 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-10-26 18:08:29,693 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-10-26 18:08:29,693 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-10-26 18:08:29,694 [INFO] [Dummy-3] [root/event_listener.py:51]: Created named pipe yasb-ec0028ea-b2af-11f0-ab90-7c10c9d32866
+2025-10-26 18:08:29,694 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\mrgann\.config\yasb
+2025-10-26 18:08:30,018 [INFO] [Dummy-3] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-ec0028ea-b2af-11f0-ab90-7c10c9d32866
+2025-10-26 18:08:30,019 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-26 18:08:30,020 [DEBUG] [Dummy-9] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-26 18:08:30,020 [DEBUG] [MainThread] [systray_widget/systray.py:538]: Loading state from C:\Users\mrgann\AppData\Local\YASB\systray_state_LGELECTRONICS23EA53.json
+2025-10-26 18:08:30,067 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-10-26 18:08:30,067 [DEBUG] [MainThread] [systray_widget/systray.py:285]: Systray thread started
+2025-10-26 18:08:30,067 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-10-26 18:08:30,070 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 131884
+2025-10-26 18:08:30,070 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 131884
+2025-10-26 18:08:30,268 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 131884
+2025-10-26 18:08:30,268 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-10-26 18:08:30,273 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49318
+2025-10-26 18:08:31,280 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 18:08:31,280 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 18:11:32,300 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 18:11:32,301 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 20:07:02,219 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 20:07:02,244 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 20:07:56,002 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 20:07:56,002 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 21:33:42,214 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 21:33:42,274 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 21:33:43,241 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 21:33:43,241 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 21:33:53,964 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 21:33:54,023 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 21:37:58,214 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 21:37:58,276 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 21:38:02,149 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 21:38:02,212 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 21:40:33,401 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 21:40:33,461 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 21:41:55,671 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 21:41:55,671 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 21:42:02,394 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 21:42:02,394 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 22:04:30,586 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 22:04:30,649 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 22:04:34,911 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 22:04:34,972 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 6152. Err: 5
+2025-10-26 23:48:40,211 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 23:48:40,211 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-26 23:49:05,009 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-26 23:49:05,009 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 01:18:38,633 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 01:18:38,633 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 01:25:20,059 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 01:25:20,059 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 01:25:23,000 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 01:25:23,001 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 02:22:54,862 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 171508865
+2025-10-27 02:22:54,862 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 299106641
+2025-10-27 02:22:54,862 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 171574401
+2025-10-27 02:22:54,872 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 299237713
+2025-10-27 02:22:54,872 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 213845929
+2025-10-27 10:20:46,052 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 726076185
+2025-10-27 10:20:46,052 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 3705735931
+2025-10-27 10:20:48,065 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 302645585
+2025-10-27 10:20:48,065 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 879954399
+2025-10-27 10:20:48,065 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 302711121
+2025-10-27 12:19:02,593 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 438176153
+2025-10-27 12:19:02,595 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 886573669
+2025-10-27 12:19:02,595 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 438241689
+2025-10-27 12:19:04,600 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 533987759
+2025-10-27 12:19:04,600 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 999951073
+2025-10-27 12:19:06,614 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 934479759
+2025-10-27 12:19:06,614 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 890374757
+2025-10-27 13:30:27,220 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 13:30:27,220 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 13:47:59,266 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 13:47:59,266 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 13:48:19,597 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 13:48:19,597 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 13:53:25,324 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 13:53:25,324 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 13:54:15,788 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 13:54:15,788 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 13:54:21,290 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 13:54:21,290 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 13:56:36,937 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 13:56:36,938 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 14:01:10,824 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 14:01:10,824 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 14:01:46,937 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 14:01:46,937 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 14:11:01,625 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 14:11:01,625 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 14:13:47,155 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 14:13:47,155 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 14:13:50,045 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 14:13:50,045 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 14:15:52,569 [WARNING] [Dummy-3] [root/event_listener.py:82]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-10-27 14:15:52,569 [INFO] [Dummy-3] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-10-27 14:15:55,592 [INFO] [Dummy-3] [root/event_listener.py:51]: Created named pipe yasb-ec0028ea-b2af-11f0-ab90-7c10c9d32866
+2025-10-27 14:30:21,435 [INFO] [Dummy-3] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-ec0028ea-b2af-11f0-ab90-7c10c9d32866
+2025-10-27 14:37:08,722 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 14:37:08,722 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 14:37:10,999 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 14:37:10,999 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 14:38:10,425 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 14:38:10,425 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 14:57:46,333 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 14:57:46,333 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 17:24:28,871 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 17:24:28,872 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 17:24:35,195 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 17:24:35,195 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 17:25:01,701 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 17:25:01,701 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 17:25:03,280 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 17:25:03,281 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 17:33:01,794 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 17:33:01,795 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 17:35:09,032 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 17:35:09,032 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 17:35:49,075 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 17:35:49,075 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 17:39:30,207 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-27 17:39:30,208 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-27 17:39:30,208 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-27 17:39:30,208 [ERROR] [MainThread] [root/main.py:76]: Another instance of the YASB is already running.
+2025-10-27 17:40:55,060 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 17:40:55,060 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 17:41:31,497 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 17:41:31,497 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 17:46:45,746 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 17:46:45,746 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 17:47:17,593 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 17:47:17,593 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 17:47:22,428 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 17:47:22,428 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 17:47:25,451 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 17:47:25,451 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 17:50:38,813 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 17:50:38,813 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 17:51:10,368 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 17:51:10,368 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 17:59:44,745 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 0
+2025-10-27 17:59:45,738 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 17:59:45,738 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 18:00:29,949 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 0
+2025-10-27 18:00:30,944 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 18:00:30,944 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 18:00:58,997 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 0
+2025-10-27 18:01:00,005 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 18:01:00,005 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 18:03:50,335 [INFO] [MainThread] [root/bar.py:147]: Screen geometry changed. Updating position for bar (primary-bar_23EA53_f78786dc)
+2025-10-27 18:09:04,083 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 18:09:04,083 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 18:09:07,051 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 18:09:07,051 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 19:44:22,366 [INFO] [MainThread] [root/bar.py:147]: Screen geometry changed. Updating position for bar (primary-bar_23EA53_f78786dc)
+2025-10-27 19:45:02,633 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 19:45:02,633 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 22:59:22,857 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 22:59:22,857 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 23:11:45,614 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 23:11:45,614 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 23:12:02,016 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 23:12:02,016 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 23:12:17,029 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 23:12:17,029 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 23:12:27,984 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 23:12:27,984 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 23:12:46,437 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 23:12:46,437 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 23:12:59,046 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 23:12:59,046 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 23:13:13,986 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 23:13:13,986 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 23:13:24,805 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 23:13:24,805 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 23:14:23,987 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 23:14:23,987 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 23:14:32,754 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 23:14:32,754 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 23:14:47,294 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 23:14:47,295 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 23:15:22,106 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 23:15:22,106 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 23:15:45,030 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 23:15:45,030 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 23:16:31,398 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 23:16:31,398 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-27 23:28:13,639 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-27 23:28:13,639 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 00:15:06,871 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 00:15:06,872 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 02:02:07,920 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 02:02:07,921 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 02:06:15,875 [INFO] [MainThread] [root/bar.py:147]: Screen geometry changed. Updating position for bar (primary-bar_23EA53_f78786dc)
+2025-10-28 02:06:55,545 [INFO] [MainThread] [root/bar.py:147]: Screen geometry changed. Updating position for bar (primary-bar_23EA53_f78786dc)
+2025-10-28 02:07:08,029 [INFO] [MainThread] [root/bar.py:147]: Screen geometry changed. Updating position for bar (primary-bar_23EA53_f78786dc)
+2025-10-28 02:08:29,194 [INFO] [MainThread] [root/bar.py:147]: Screen geometry changed. Updating position for bar (primary-bar_23EA53_f78786dc)
+2025-10-28 02:08:40,208 [INFO] [MainThread] [root/bar.py:147]: Screen geometry changed. Updating position for bar (primary-bar_23EA53_f78786dc)
+2025-10-28 02:19:49,547 [INFO] [MainThread] [root/bar.py:147]: Screen geometry changed. Updating position for bar (primary-bar_23EA53_f78786dc)
+2025-10-28 02:26:01,048 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 205065781
+2025-10-28 02:26:01,049 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 1166149495
+2025-10-28 02:26:01,054 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 1167263607
+2025-10-28 02:26:01,055 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 199166181
+2025-10-28 02:26:01,055 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 1167329143
+2025-10-28 10:11:28,726 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 47843157
+2025-10-28 10:11:28,726 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 72615741
+2025-10-28 10:11:28,726 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 47908693
+2025-10-28 10:11:30,742 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 399640255
+2025-10-28 10:11:30,742 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 157877149
+2025-10-28 10:11:30,742 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 399705791
+2025-10-28 11:02:17,610 [WARNING] [Dummy-3] [root/event_listener.py:82]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-10-28 11:02:17,611 [INFO] [Dummy-3] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-10-28 11:02:17,670 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping KomorebiEventListener...
+2025-10-28 11:02:17,791 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-10-28 11:02:17,792 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-10-28 11:02:17,793 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-10-28 11:02:17,813 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 11:02:17,813 [DEBUG] [MainThread] [systray_widget/systray.py:516]: Saving state to disk
+2025-10-28 11:02:17,822 [DEBUG] [MainThread] [systray_widget/systray.py:520]: Saving state to C:\Users\mrgann\AppData\Local\YASB\systray_state_LGELECTRONICS23EA53.json
+2025-10-28 11:05:00,449 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-28 11:05:00,449 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-28 11:05:00,449 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-28 11:05:01,469 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-28 11:05:07,190 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-10-28 11:05:07,211 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-10-28 11:05:07,220 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-10-28 11:05:07,221 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-10-28 11:05:07,221 [INFO] [Dummy-3] [root/event_listener.py:51]: Created named pipe yasb-1bc5de95-b407-11f0-8144-7c10c9d32866
+2025-10-28 11:05:07,222 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\mrgann\.config\yasb
+2025-10-28 11:05:07,828 [INFO] [Dummy-3] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-1bc5de95-b407-11f0-8144-7c10c9d32866
+2025-10-28 11:05:07,851 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-28 11:05:07,851 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-28 11:05:07,858 [DEBUG] [MainThread] [systray_widget/systray.py:538]: Loading state from C:\Users\mrgann\AppData\Local\YASB\systray_state_LGELECTRONICS23EA53.json
+2025-10-28 11:05:07,897 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-10-28 11:05:07,897 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-10-28 11:05:07,900 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 459820
+2025-10-28 11:05:07,900 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 459820
+2025-10-28 11:05:08,172 [DEBUG] [MainThread] [systray_widget/systray.py:285]: Systray thread started
+2025-10-28 11:05:08,297 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-10-28 11:05:08,373 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 459820
+2025-10-28 11:05:08,377 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49326
+2025-10-28 11:05:09,377 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 11:05:09,377 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 11:06:33,741 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 1376509
+2025-10-28 11:06:33,741 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 918423
+2025-10-28 11:06:33,741 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 6358225
+2025-10-28 11:06:34,880 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 1246455
+2025-10-28 11:06:34,880 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 1770703
+2025-10-28 11:06:34,880 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 1311991
+2025-10-28 11:11:11,749 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 11:11:11,749 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 11:13:51,194 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 1180611
+2025-10-28 11:13:51,209 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 16516699
+2025-10-28 11:13:51,209 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 1246147
+2025-10-28 11:13:53,219 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 460491
+2025-10-28 11:13:53,219 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 12453569
+2025-10-28 11:13:53,219 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 526027
+2025-10-28 11:14:58,231 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 43057397
+2025-10-28 11:14:58,231 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 2098875
+2025-10-28 11:15:13,569 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 4195791
+2025-10-28 11:15:13,570 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 3933801
+2025-10-28 11:15:28,418 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 11:15:28,418 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 11:19:52,395 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 11:19:52,395 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 11:23:03,262 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 11:23:03,263 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 11:51:05,826 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 11:51:05,826 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 11:52:39,730 [WARNING] [Dummy-3] [root/event_listener.py:82]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-10-28 11:52:39,730 [INFO] [Dummy-3] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-10-28 11:52:42,733 [INFO] [Dummy-3] [root/event_listener.py:51]: Created named pipe yasb-1bc5de95-b407-11f0-8144-7c10c9d32866
+2025-10-28 11:53:31,909 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-28 11:53:31,910 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-28 11:53:31,910 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-28 11:53:32,832 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-28 11:53:36,676 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-10-28 11:53:36,679 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-10-28 11:53:36,680 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-10-28 11:53:36,680 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-10-28 11:53:36,680 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\mrgann\.config\yasb
+2025-10-28 11:53:36,682 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-e1f23f4d-b40d-11f0-9fa7-7c10c9d32866
+2025-10-28 11:53:37,061 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-28 11:53:37,062 [DEBUG] [Dummy-9] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-28 11:53:37,062 [DEBUG] [MainThread] [systray_widget/systray.py:538]: Loading state from C:\Users\mrgann\AppData\Local\YASB\systray_state_LGELECTRONICS23EA53.json
+2025-10-28 11:53:37,092 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-10-28 11:53:37,092 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-10-28 11:53:37,096 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 394660
+2025-10-28 11:53:37,097 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 394660
+2025-10-28 11:53:37,105 [DEBUG] [MainThread] [systray_widget/systray.py:285]: Systray thread started
+2025-10-28 11:53:37,112 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-e1f23f4d-b40d-11f0-9fa7-7c10c9d32866
+2025-10-28 11:53:37,308 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 394660
+2025-10-28 11:53:37,308 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-10-28 11:53:37,314 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49326
+2025-10-28 11:53:37,370 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 11:53:38,494 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 11:53:38,494 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 12:14:59,632 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 12:14:59,645 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 12:17:52,673 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 12:17:52,673 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 12:43:59,143 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 12:43:59,143 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 13:16:06,079 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 13:16:06,139 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 13:20:45,565 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 13:20:45,566 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 13:39:37,014 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 13:39:37,014 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 13:39:40,034 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 13:39:40,034 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 13:43:33,815 [INFO] [MainThread] [root/bar.py:147]: Screen geometry changed. Updating position for bar (primary-bar_23EA53_e1688fab)
+2025-10-28 14:01:56,668 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 14:01:56,669 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 15:36:50,654 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 15:36:50,718 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 15:36:55,727 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 15:36:55,781 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 15:48:47,451 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 15:48:47,515 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 15:51:24,827 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 15:51:24,890 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 15:51:27,771 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 15:51:27,830 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 15:51:41,140 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 15:51:41,202 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 16:23:52,452 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 16:23:52,515 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 16:29:29,845 [INFO] [MainThread] [root/bar.py:147]: Screen geometry changed. Updating position for bar (primary-bar_23EA53_e1688fab)
+2025-10-28 16:29:30,599 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 394660
+2025-10-28 16:29:30,640 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 4768. Err: 5
+2025-10-28 16:29:32,022 [INFO] [MainThread] [root/bar.py:147]: Screen geometry changed. Updating position for bar (primary-bar_23EA53_e1688fab)
+2025-10-28 16:29:33,001 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 394660
+2025-10-28 16:29:33,043 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 16:29:33,043 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 16:29:34,355 [INFO] [MainThread] [root/bar.py:147]: Screen geometry changed. Updating position for bar (primary-bar_23EA53_e1688fab)
+2025-10-28 16:29:36,054 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 16:29:36,054 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 18:02:41,860 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 18:02:41,861 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 18:10:48,183 [WARNING] [Dummy-5] [root/event_listener.py:82]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-10-28 18:10:48,183 [INFO] [Dummy-5] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-10-28 18:10:51,185 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-e1f23f4d-b40d-11f0-9fa7-7c10c9d32866
+2025-10-28 18:10:51,265 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-e1f23f4d-b40d-11f0-9fa7-7c10c9d32866
+2025-10-28 19:45:48,919 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 19:45:48,929 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 19:46:37,281 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 19:46:37,281 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 19:46:51,388 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-10-28 19:47:19,448 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-10-28 19:49:19,477 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-28 19:49:19,478 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-28 19:49:19,478 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-28 19:49:20,414 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-28 19:49:24,166 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-10-28 19:49:24,199 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-10-28 19:49:24,201 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-10-28 19:49:24,202 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-10-28 19:49:24,202 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\mrgann\.config\yasb
+2025-10-28 19:49:24,712 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-59984eac-b450-11f0-ab2e-7c10c9d32866
+2025-10-28 19:49:24,776 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-28 19:49:24,777 [DEBUG] [Dummy-9] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-28 19:49:24,798 [DEBUG] [MainThread] [systray_widget/systray.py:538]: Loading state from C:\Users\mrgann\AppData\Local\YASB\systray_state_LGELECTRONICS23EA53.json
+2025-10-28 19:49:24,864 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-10-28 19:49:24,864 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-10-28 19:49:24,864 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 525358
+2025-10-28 19:49:24,864 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 525358
+2025-10-28 19:49:25,000 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-59984eac-b450-11f0-ab2e-7c10c9d32866
+2025-10-28 19:49:25,157 [DEBUG] [MainThread] [systray_widget/systray.py:285]: Systray thread started
+2025-10-28 19:49:25,359 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 525358
+2025-10-28 19:49:25,359 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-10-28 19:49:25,363 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49317
+2025-10-28 19:49:26,401 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 19:49:26,401 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 19:50:51,497 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 1836121
+2025-10-28 19:50:52,645 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 2425819
+2025-10-28 19:50:52,645 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 4129513
+2025-10-28 19:59:13,489 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 2818917
+2025-10-28 19:59:13,489 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 4260549
+2025-10-28 19:59:15,508 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 4916187
+2025-10-28 19:59:15,508 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 5374661
+2025-10-28 19:59:15,508 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 4981723
+2025-10-28 19:59:17,530 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 852901
+2025-10-28 19:59:17,530 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 4784997
+2025-10-28 21:12:20,517 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 21:12:20,517 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 21:13:32,476 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 21:13:32,476 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 21:14:19,034 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 21:14:19,034 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 21:54:34,152 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 569968099
+2025-10-28 21:54:34,152 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 556074401
+2025-10-28 21:54:34,152 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 2229157
+2025-10-28 21:56:39,420 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 21:56:39,420 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 21:56:42,100 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 21:56:42,100 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 22:32:23,944 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 22:32:23,944 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:11:57,364 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:11:57,364 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:17:43,770 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:17:43,770 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:20:25,360 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:20:25,360 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:20:31,217 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:20:31,218 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:21:09,493 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:21:09,493 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:22:08,690 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:22:08,690 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:23:54,872 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:23:54,872 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:25:57,765 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:25:57,765 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:29:30,312 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:29:30,312 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:30:47,968 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:30:47,968 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:31:44,193 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:31:44,193 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:32:01,107 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:32:01,107 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:40:34,859 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:40:34,859 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:40:43,078 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:40:43,078 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:40:47,958 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:40:47,958 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:48:07,997 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:48:07,997 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:48:51,873 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:48:51,873 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:49:00,061 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:49:00,061 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:51:03,021 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:51:03,021 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:51:29,112 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:51:29,113 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:51:42,467 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:51:42,467 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:52:16,626 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:52:16,626 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:53:19,602 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:53:19,602 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:53:58,401 [WARNING] [Dummy-5] [root/event_listener.py:82]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-10-28 23:53:58,401 [INFO] [Dummy-5] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-10-28 23:53:58,406 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-10-28 23:53:58,407 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-10-28 23:53:58,407 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping KomorebiEventListener...
+2025-10-28 23:53:58,408 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-10-28 23:53:58,411 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:53:58,411 [DEBUG] [MainThread] [systray_widget/systray.py:516]: Saving state to disk
+2025-10-28 23:53:58,412 [DEBUG] [MainThread] [systray_widget/systray.py:520]: Saving state to C:\Users\mrgann\AppData\Local\YASB\systray_state_LGELECTRONICS23EA53.json
+2025-10-28 23:55:09,494 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-28 23:55:09,494 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-28 23:55:09,495 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-28 23:55:10,440 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-28 23:55:14,405 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-10-28 23:55:14,424 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-10-28 23:55:14,424 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-10-28 23:55:14,424 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-10-28 23:55:14,425 [INFO] [Dummy-3] [root/event_listener.py:51]: Created named pipe yasb-b1699a9a-b472-11f0-9931-7c10c9d32866
+2025-10-28 23:55:14,425 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\mrgann\.config\yasb
+2025-10-28 23:55:14,922 [INFO] [Dummy-3] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-b1699a9a-b472-11f0-9931-7c10c9d32866
+2025-10-28 23:55:14,946 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-28 23:55:14,947 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-28 23:55:14,961 [DEBUG] [MainThread] [systray_widget/systray.py:538]: Loading state from C:\Users\mrgann\AppData\Local\YASB\systray_state_LGELECTRONICS23EA53.json
+2025-10-28 23:55:15,006 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-10-28 23:55:15,006 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-10-28 23:55:15,006 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 460016
+2025-10-28 23:55:15,006 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 460016
+2025-10-28 23:55:15,109 [DEBUG] [MainThread] [systray_widget/systray.py:285]: Systray thread started
+2025-10-28 23:55:15,309 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 460016
+2025-10-28 23:55:15,309 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-10-28 23:55:15,314 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49316
+2025-10-28 23:55:16,339 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:55:16,339 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:55:24,105 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:55:24,105 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:55:28,499 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:55:28,499 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:55:58,576 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-28 23:55:58,576 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-28 23:56:42,903 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 852551
+2025-10-28 23:56:44,037 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 787923
+2025-10-28 23:56:44,037 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 3735785
+2025-10-28 23:56:44,038 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 853459
+2025-10-29 00:00:15,119 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:00:15,119 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:01:32,090 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:01:32,090 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:01:35,670 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:01:35,670 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:05:03,955 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 12976409
+2025-10-29 00:05:03,955 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 3212639
+2025-10-29 00:05:21,024 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 5375243
+2025-10-29 00:05:21,024 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 1901261
+2025-10-29 00:05:48,848 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:05:48,848 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:23:00,864 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping SystemEventListener...
+2025-10-29 00:23:00,864 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping KomorebiEventListener...
+2025-10-29 00:23:00,865 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-10-29 00:23:00,866 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:218]: TaskbarWindowManager stopped
+2025-10-29 00:23:00,866 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:23:00,866 [DEBUG] [MainThread] [systray_widget/systray.py:516]: Saving state to disk
+2025-10-29 00:23:00,867 [DEBUG] [MainThread] [systray_widget/systray.py:520]: Saving state to C:\Users\mrgann\AppData\Local\YASB\systray_state_LGELECTRONICS23EA53.json
+2025-10-29 00:23:00,891 [INFO] [Dummy-3] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-10-29 00:24:16,682 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-29 00:24:16,683 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-29 00:24:16,683 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-29 00:24:18,777 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-29 00:24:22,404 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:191]: TaskbarWindowManager is starting...
+2025-10-29 00:24:22,411 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2025-10-29 00:24:22,418 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-10-29 00:24:22,418 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-10-29 00:24:22,419 [INFO] [Dummy-3] [root/event_listener.py:51]: Created named pipe yasb-c34c42b9-b476-11f0-86f1-7c10c9d32866
+2025-10-29 00:24:22,420 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\mrgann\.config\yasb
+2025-10-29 00:24:22,829 [INFO] [Dummy-3] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-c34c42b9-b476-11f0-86f1-7c10c9d32866
+2025-10-29 00:24:22,855 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-29 00:24:22,856 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-29 00:24:22,857 [DEBUG] [MainThread] [systray_widget/systray.py:538]: Loading state from C:\Users\mrgann\AppData\Local\YASB\systray_state_LGELECTRONICS23EA53.json
+2025-10-29 00:24:22,868 [DEBUG] [TrayMonitor] [systray_widget/systray.py:58]: Systray thread is starting...
+2025-10-29 00:24:22,868 [DEBUG] [TaskbarService] [systray_widget/systray.py:72]: TaskbarService thread is starting...
+2025-10-29 00:24:22,870 [DEBUG] [TaskbarService] [root/tasks_service.py:75]: Found yasb systray hwnd: 263252
+2025-10-29 00:24:22,870 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 263252
+2025-10-29 00:24:22,912 [DEBUG] [MainThread] [systray_widget/systray.py:285]: Systray thread started
+2025-10-29 00:24:23,113 [DEBUG] [TaskbarService] [systray_widget/tasks_service.py:81]: Adding TaskbandHWND prop to hwnd 263252
+2025-10-29 00:24:23,114 [DEBUG] [TrayMonitor] [systray_widget/tray_monitor.py:228]: Finding real tray hwnd
+2025-10-29 00:24:23,120 [DEBUG] [MainThread] [systray_widget/tray_monitor.py:154]: Sending TaskbarCreated message: 49313
+2025-10-29 00:24:23,122 [DEBUG] [TrayMonitor] [systray_widget/utils.py:124]: Could not open process ID 5160. Err: 5
+2025-10-29 00:24:24,142 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:24:24,142 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:25:23,362 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:25:23,362 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:25:50,321 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 1508465
+2025-10-29 00:25:51,435 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 721811
+2025-10-29 00:25:51,435 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 655559
+2025-10-29 00:26:30,261 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:26:30,261 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:27:14,919 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:27:14,919 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:30:04,753 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:30:04,753 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:30:13,771 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:30:13,771 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:32:08,564 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:32:08,564 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:34:11,625 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 6096159
+2025-10-29 00:34:11,626 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 4195999
+2025-10-29 00:35:52,345 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:35:52,345 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:36:47,370 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:36:47,370 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:38:08,824 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:38:08,824 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:38:56,983 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:38:56,983 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:40:31,669 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:40:31,669 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:41:13,516 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:41:13,516 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:41:50,440 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:41:50,440 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:42:16,634 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:42:16,634 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:42:43,128 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:42:43,128 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:43:00,233 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:43:00,233 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:45:44,172 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:45:44,172 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:45:56,617 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:45:56,617 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:52:21,578 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:52:21,578 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 00:54:04,038 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 00:54:04,038 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 01:35:52,217 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 01:35:52,217 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:00:21,357 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:00:21,357 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:07:36,548 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:07:36,548 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:08:29,095 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:08:29,095 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:09:31,396 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:09:31,396 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:38:17,516 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:38:17,516 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:41:33,528 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:41:33,528 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:44:25,398 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:44:25,398 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:45:31,126 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:45:31,126 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:45:32,364 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:45:32,364 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:45:50,920 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:45:50,921 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:47:16,267 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:47:16,267 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:48:37,833 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:48:37,833 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:48:40,958 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:48:40,958 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:49:53,393 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:49:53,393 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:49:54,923 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:49:54,923 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:50:13,313 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:50:13,313 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:55:01,473 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:55:01,473 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 02:55:02,660 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 02:55:02,660 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 03:15:40,678 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 03:15:40,678 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 03:15:41,802 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 03:15:41,802 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 03:17:22,174 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 03:17:22,174 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 03:17:27,646 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 03:17:27,647 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 03:17:52,670 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 03:17:52,670 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 03:18:56,324 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 03:18:56,324 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 03:25:12,471 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 03:25:12,472 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 03:26:57,183 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 03:26:57,183 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 03:27:48,244 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 03:27:48,244 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 10:23:51,132 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 20514591
+2025-10-29 10:23:51,146 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 512558183
+2025-10-29 10:23:51,146 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 265224581
+2025-10-29 10:23:51,146 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 33816977
+2025-10-29 10:23:51,146 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 559612289
+2025-10-29 10:24:45,217 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 21759229
+2025-10-29 10:24:45,217 [ERROR] [TrayMonitor] [root/app_icons.py:170]: GetIconInfo failed: 287834647
+2025-10-29 17:14:24,228 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 17:14:24,228 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 17:14:26,160 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 17:14:26,160 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
+2025-10-29 17:14:48,165 [DEBUG] [MainThread] [systray_widget/systray.py:476]: Re-sorting widgets
+2025-10-29 17:14:48,165 [DEBUG] [MainThread] [systray_widget/systray.py:498]: Updating current state
